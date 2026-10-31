@@ -1,0 +1,17 @@
+node_modules
+dist
+.DS_Store
+server/public
+vite.config.ts.*
+*.tar.gz
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Replit agent state
+.local/
+
+# Logs
+*.log
